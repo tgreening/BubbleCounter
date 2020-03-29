@@ -6,9 +6,9 @@
 #include <ESP8266mDNS.h>
 
 // replace with your channel’s thingspeak API key and your SSID and password
-const char * apiKey = "xxxxx";
+const char * apiKey = "xxxxxxx";
 const char* server = "api.thingspeak.com";
-unsigned long myChannelNumber = 419446;
+unsigned long myChannelNumber = 0;
 const char * host = "BubbleCounter";
 WiFiManager wifiManager;
 
